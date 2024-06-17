@@ -1,4 +1,10 @@
 /*MOBILE VIEW*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 /*TABLET VIEW*/
 @media screen and (max-width: 1024px){
@@ -6,5 +12,5 @@
 }
 /*DESKTOP VIEW*/
 @media screen and (min-width: 1024px){
-  
+
 }
