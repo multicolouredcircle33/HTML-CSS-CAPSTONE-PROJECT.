@@ -1,10 +1,125 @@
 /*MOBILE VIEW*/
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.header-background {
+  background: url(furniture-site-images/furniture-1.jpg) no-repeat;
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-icon {
+  color: chocolate;
+  font-size: 21px;
+  padding: 3px;
+}
+
+.button {
+  background-color: transparent;
+  font-weight: 600;
+  color: coral;
+  border-color: coral;
+}
+
+.header-text {
+  font-size: 20px; 
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;  
+  color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.company-name {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 25px; 
+  font-style: normal;  
+  color: chocolate;
+  text-decoration: none;
+}
+
+.pgd-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: burlywood;
+}
+
+.pgd-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: chocolate;
+  margin-top: 8px;
+}
+
+.pgd-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: coral;
+  margin-top: 8px;
+}
+
+.pgd-icon {
+  font-size: 25px;
+}
+
+.pgd-text {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.pgd-text-main {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-img {
+  width: 100%;
+  height: 200px;
+  border: 4px chocolate solid;
+  border-radius: 10px;
+}
+
+.about-text {
+  font-size: 30px; 
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;  
+  color: chocolate;
+  margin-top: 10px;
+}
+
+.about-text-sub {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: coral;
+}
+
+.contact-button {
+  color: white;
+  background-color: chocolate;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+}
 
 /*TABLET VIEW*/
 @media screen and (max-width: 1024px){
