@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 10px auto;
+  margin: 15px auto;
 }
 
 .company-name {
@@ -46,7 +46,7 @@
   font-weight: 400;
   font-size: 25px; 
   font-style: normal;  
-  color: chocolate;
+  color: saddlebrown;
   text-decoration: none;
 }
 
@@ -94,6 +94,7 @@
   height: 200px;
   border: 4px chocolate solid;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .about-text {
@@ -119,6 +120,223 @@
   font-size: 16px;
   font-weight: 500;
   border-radius: 5px;
+}
+
+.products-page {
+  background-color: saddlebrown;
+}
+
+.products-title,
+.products-text,
+.products-price {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.products-title-header {
+  font-size: 30px; 
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;  
+  color: coral;
+  margin-top: 10px;
+}
+
+.products-header {
+  font-size: 20px; 
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;  
+  color: coral;
+}
+
+.products-header:hover {
+  text-decoration: underline;
+  text-decoration-color: coral;
+  cursor: pointer;
+}
+
+.products-img {
+  width: 100%;
+  height: 210px;
+  border: 3px coral solid;
+}
+
+.products-display-1 {
+  margin-top: 20px;
+}
+
+.products-text {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 14px;
+}
+
+.product-name {
+  font-size: 20px;
+  color: coral;
+  font-family: "Pacifico", cursive;
+  font-weight: 600;
+  font-style: normal;  
+}
+
+.services-page {
+  margin-top: 30px;
+}
+
+.services-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.services-page-header {
+  font-size: 25px; 
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;  
+  color: coral;
+  margin-top: 10px;
+}
+
+.service-display {
+  border: 4px coral solid;
+  border-radius: 5px;
+}
+
+.service-display-1 {
+  border: 4px coral solid;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.service-text {
+  background-color: chocolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-img {
+  width: 100%;
+  height: 230px;
+}
+
+.service-text-head {
+  font-style: normal;  
+  font-size: 20px;
+  color: white;
+  font-family: "Pacifico", cursive;
+  font-weight: 600;
+}
+
+.read-more-button {
+  border-radius: 5px;
+  color: chocolate;
+}
+
+.page-footer {
+  background-color: saddlebrown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer-icon {
+  color: white;
+}
+
+.footer-company-name {
+  color: coral;
+  font-family: "Pacifico", cursive;
+}
+
+.footer-c-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.footer-text-1 {
+  font-size: 20px;
+}
+
+.footer-text-2 {
+  font-size: 12px;
+}
+
+.contact-page-icons {
+  color: saddlebrown;
+  font-size: 20px;
+}
+
+.info-head {
+  color: saddlebrown;
+  font-family: "Pacifico", cursive;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.info-title {
+  font-size: 10px;
+}
+
+.form {
+  margin-top: 2em;
+}
+
+.name-text-area {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid saddlebrown;
+  color: saddlebrown;
+  outline: none;
+  width: 100%;
+  height: 2em;
+}
+
+.email-text-area {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid saddlebrown;
+  color: saddlebrown;
+  outline: none;
+  width: 100%;
+  height: 2em;
+  margin-top: 2em;
+}
+
+.message-text-area {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid saddlebrown;
+  color: saddlebrown;
+  outline: none;
+  width: 100%;
+  height: 5em;
+  margin-top: 2em;
+}
+
+.form-button {
+  background-color: saddlebrown;
+  color: white;
+  font-family: "Playwrite NG Modern", cursive;
 }
 
 /*TABLET VIEW*/
