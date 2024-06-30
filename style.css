@@ -6,27 +6,40 @@
 }
 
 .header-background {
-  background: url(furniture-site-images/furniture-1.jpg) no-repeat;
-  height: 200px;
+  background: url(furniture-site-images/pexels-heyho-6284235.jpg) no-repeat;
+  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header-bg-top {
+  position: absolute;
+  top: 0;
 }
 
 .menu-icon {
   color: chocolate;
   font-size: 21px;
   padding: 3px;
+  margin-right: 0.5em;
+}
+
+.dropdown-item {
+  font-family: "Playwrite NG Modern", cursive;
+  font-weight: 400;
 }
 
 .button {
   background-color: transparent;
   font-weight: 600;
-  color: coral;
-  border-color: coral;
+  color: chocolate;
+  border-color: chocolate;
 }
 
 .header-text {
@@ -34,7 +47,7 @@
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;  
-  color: black;
+  color: coral;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -46,8 +59,9 @@
   font-weight: 400;
   font-size: 25px; 
   font-style: normal;  
-  color: saddlebrown;
+  color: chocolate;
   text-decoration: none;
+  margin-left: 0.5em;
 }
 
 .pgd-1 {
@@ -208,12 +222,14 @@
 .service-display {
   border: 4px coral solid;
   border-radius: 5px;
+  height: 400px;
 }
 
 .service-display-1 {
   border: 4px coral solid;
   border-radius: 5px;
   margin-top: 30px;
+  height: 400px;
 }
 
 .service-text {
@@ -221,11 +237,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 40%;
 }
 
 .service-img {
   width: 100%;
-  height: 230px;
+  height: 60%;
 }
 
 .service-text-head {
@@ -339,11 +357,139 @@
   font-family: "Playwrite NG Modern", cursive;
 }
 
-/*TABLET VIEW*/
-@media screen and (max-width: 1024px){
+.page-description,
+.about-page,
+.products-page,
+.services-page,
+.contact-page,
+.footer-page {
+  padding: 1em;
+}
 
+/*TABLET VIEW*/
+@media screen and (min-width: 768px){
+  .page-descriptio,
+  .about-page,
+  .products-page,
+  .services-page,
+  .contact-page,
+  .footer-page {
+    padding: 2em 4em 2em 4em;
+  }
+
+  .header-background {
+    height: 300px;
+  }
+
+  .header-text {
+    font-size: 28px;
+  }
+
+  .company-name {
+    font-size: 33px;
+  }
+
+  .button {
+    font-size: 23px;
+  }
+
+  .menu-icon {
+    font-size: 26px;
+  }
+
+  .page-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .pgd-2,
+  .pgd-3 {
+    margin-top: 0;
+  }
+
+  .about-img {
+    height: 300px;
+  }
+
+  .products,
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .services {
+    margin-top: 10px;
+  }
+
+  .products-display-1,
+  .service-display-1 {
+    margin-top: 0;
+  }
 }
 /*DESKTOP VIEW*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1025px){
+  .button:hover {
+    background-color: saddlebrown;
+    color: white;
+    border-color: coral;
+    transition: all 0.5s ease-out;
+  }
+  .page-description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
+  .about-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+  }
+
+  .about-img-container {
+    width: 50%;
+  }
+
+  .about-page-text {
+    width: 50%;
+  }
+
+  .products-page {
+    display: flex;
+    gap: 2em;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+  }
+
+  .products-page-description {
+    width: 25%;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact-page {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-page-info,
+  .form {
+    width: 90%;
+  }
+
+  .form {
+    margin-top: 0;
+  }
+
+  .contact-page {
+    margin: auto 5em;
+  }
 }
