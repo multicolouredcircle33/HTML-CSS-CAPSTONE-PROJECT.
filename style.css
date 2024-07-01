@@ -365,7 +365,6 @@
 .footer-page {
   padding: 1em;
 }
-
 /*TABLET VIEW*/
 @media screen and (min-width: 768px){
   .page-descriptio,
@@ -429,13 +428,18 @@
   }
 }
 /*DESKTOP VIEW*/
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1024px){
   .button:hover {
-    background-color: saddlebrown;
+    border-color: white;
     color: white;
-    border-color: coral;
     transition: all 0.5s ease-out;
   }
+
+  .menu-icon:hover,
+  .footer-company-name:hover {
+    cursor: pointer;
+  }
+
   .page-description {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -491,5 +495,19 @@
 
   .contact-page {
     margin: auto 5em;
+  }
+
+  .contact-button:hover {
+    background-color: saddlebrown;
+    transition:  all 0.5s ease-out;
+  }
+
+  .form-button:hover {
+    background-color: chocolate;
+  }
+
+  .footer-icon:hover {
+    color: coral;
+    cursor: pointer;
   }
 }
