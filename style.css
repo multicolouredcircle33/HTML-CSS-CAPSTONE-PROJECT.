@@ -1,4 +1,4 @@
-/*MOBILE VIEW*/
+/* MOBILE VIEW */
 * {
   margin: 0;
   padding: 0;
@@ -43,10 +43,10 @@
 }
 
 .header-text {
-  font-size: 20px; 
+  font-size: 20px;
   font-family: "Pacifico", cursive;
   font-weight: 400;
-  font-style: normal;  
+  font-style: normal;
   color: coral;
   display: flex;
   justify-content: center;
@@ -57,8 +57,8 @@
 .company-name {
   font-family: "Pacifico", cursive;
   font-weight: 400;
-  font-size: 25px; 
-  font-style: normal;  
+  font-size: 25px;
+  font-style: normal;
   color: chocolate;
   text-decoration: none;
   margin-left: 0.5em;
@@ -112,10 +112,10 @@
 }
 
 .about-text {
-  font-size: 30px; 
+  font-size: 30px;
   font-family: "Pacifico", cursive;
   font-weight: 400;
-  font-style: normal;  
+  font-style: normal;
   color: chocolate;
   margin-top: 10px;
 }
@@ -151,19 +151,19 @@
 }
 
 .products-title-header {
-  font-size: 30px; 
+  font-size: 30px;
   font-family: "Pacifico", cursive;
   font-weight: 400;
-  font-style: normal;  
+  font-style: normal;
   color: coral;
   margin-top: 10px;
 }
 
 .products-header {
-  font-size: 20px; 
+  font-size: 20px;
   font-family: "Pacifico", cursive;
   font-weight: 400;
-  font-style: normal;  
+  font-style: normal;
   color: coral;
 }
 
@@ -197,7 +197,7 @@
   color: coral;
   font-family: "Pacifico", cursive;
   font-weight: 600;
-  font-style: normal;  
+  font-style: normal;
 }
 
 .services-page {
@@ -211,10 +211,10 @@
 }
 
 .services-page-header {
-  font-size: 25px; 
+  font-size: 25px;
   font-family: "Pacifico", cursive;
   font-weight: 400;
-  font-style: normal;  
+  font-style: normal;
   color: coral;
   margin-top: 10px;
 }
@@ -247,7 +247,7 @@
 }
 
 .service-text-head {
-  font-style: normal;  
+  font-style: normal;
   font-size: 20px;
   color: white;
   font-family: "Pacifico", cursive;
@@ -365,9 +365,8 @@
 .footer-page {
   padding: 1em;
 }
-/*TABLET VIEW*/
-@media screen and (min-width: 768px){
-  .page-descriptio,
+/* TABLET VIEW */
+@media screen and (min-width: 768px) {
   .about-page,
   .products-page,
   .services-page,
@@ -427,8 +426,8 @@
     margin-top: 0;
   }
 }
-/*DESKTOP VIEW*/
-@media screen and (min-width: 1024px){
+/* DESKTOP VIEW */
+@media screen and (min-width: 1024px) {
   .button:hover {
     border-color: white;
     color: white;
@@ -482,6 +481,7 @@
   .contact-page {
     display: flex;
     justify-content: center;
+    margin: auto 5em;
   }
 
   .contact-page-info,
@@ -491,10 +491,6 @@
 
   .form {
     margin-top: 0;
-  }
-
-  .contact-page {
-    margin: auto 5em;
   }
 
   .contact-button:hover {
