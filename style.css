@@ -176,7 +176,7 @@
 .products-img {
   width: 100%;
   height: 210px;
-  border: 3px coral solid;
+  box-shadow: 10px 10px 5px black;
 }
 
 .products-display-1 {
@@ -220,16 +220,16 @@
 }
 
 .service-display {
-  border: 4px coral solid;
   border-radius: 5px;
   height: 400px;
+  box-shadow: 8px 8px 5px black;
 }
 
 .service-display-1 {
-  border: 4px coral solid;
   border-radius: 5px;
   margin-top: 30px;
   height: 400px;
+  box-shadow: 8px 8px 5px black;
 }
 
 .service-text {
@@ -241,9 +241,103 @@
   height: 40%;
 }
 
-.service-img {
+.service-img-closet {
+  background-image: url('furniture-site-images/closet-hover.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
-  height: 60%;
+  height: 240px;
+}
+
+.service-img-closet:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/closet.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-kitchen {
+  background-image: url('furniture-site-images/kitchen-services-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-kitchen:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/kitchen-services.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-lighting {
+  background-image: url('furniture-site-images/chandalier.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-lighting:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/wall\ scones.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-wall-art {
+  background-image: url('furniture-site-images/family-wa-hover.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-wall-art:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/family-wa.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-air-quality {
+  background-image: url('furniture-site-images/fireplaces.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+.service-img-air-quality:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/humidifiers.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
 }
 
 .service-text-head {
@@ -257,6 +351,7 @@
 .read-more-button {
   border-radius: 5px;
   color: chocolate;
+  font-weight: 600;
 }
 
 .page-footer {
@@ -408,14 +503,14 @@
   }
 
   .about-img {
-    height: 300px;
+    height: 360px;
   }
 
   .products,
   .services {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 2em;
   }
 
   .services {
