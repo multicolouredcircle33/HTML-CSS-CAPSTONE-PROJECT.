@@ -1,0 +1,607 @@
+/* MOBILE VIEW */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-background {
+  background: url(furniture-site-images/pexels-heyho-6284235.jpg) no-repeat;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header-bg-top {
+  position: absolute;
+  top: 0;
+}
+
+.menu-icon {
+  color: chocolate;
+  font-size: 21px;
+  padding: 3px;
+  margin-right: 0.5em;
+}
+
+.dropdown-item {
+  font-family: "Playwrite NG Modern", cursive;
+  font-weight: 400;
+}
+
+.button {
+  background-color: transparent;
+  font-weight: 600;
+  color: chocolate;
+  border-color: chocolate;
+}
+
+.header-text {
+  font-size: 20px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: coral;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 15px auto;
+}
+
+.company-name {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  color: chocolate;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.pgd-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: burlywood;
+}
+
+.pgd-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: chocolate;
+  margin-top: 8px;
+}
+
+.pgd-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: coral;
+  margin-top: 8px;
+}
+
+.pgd-icon {
+  font-size: 25px;
+}
+
+.pgd-text {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.pgd-text-main {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-img {
+  width: 100%;
+  height: 200px;
+  border: 4px chocolate solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: chocolate;
+  margin-top: 10px;
+}
+
+.about-text-sub {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: coral;
+}
+
+.contact-button {
+  color: white;
+  background-color: chocolate;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.products-page {
+  background-color: saddlebrown;
+}
+
+.products-title,
+.products-text,
+.products-price {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.products-title-header {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: coral;
+  margin-top: 10px;
+}
+
+.products-header {
+  font-size: 20px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: coral;
+}
+
+.products-header:hover {
+  text-decoration: underline;
+  text-decoration-color: coral;
+  cursor: pointer;
+}
+
+.products-img {
+  width: 100%;
+  height: 210px;
+  box-shadow: 10px 10px 5px black;
+}
+
+.products-display-1 {
+  margin-top: 20px;
+}
+
+.products-text {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 14px;
+}
+
+.product-name {
+  font-size: 20px;
+  color: coral;
+  font-family: "Pacifico", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.services-page {
+  margin-top: 30px;
+}
+
+.services-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.services-page-header {
+  font-size: 25px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: coral;
+  margin-top: 10px;
+}
+
+.service-display {
+  border-radius: 5px;
+  height: 400px;
+  box-shadow: 8px 8px 5px black;
+}
+
+.service-display-1 {
+  border-radius: 5px;
+  margin-top: 30px;
+  height: 400px;
+  box-shadow: 8px 8px 5px black;
+}
+
+.service-text {
+  background-color: chocolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+}
+
+.service-img-closet {
+  background-image: url('furniture-site-images/closet-hover.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-closet:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/closet.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-kitchen {
+  background-image: url('furniture-site-images/kitchen-services-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-kitchen:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/kitchen-services.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-lighting {
+  background-image: url('furniture-site-images/chandalier.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-lighting:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/wall\ scones.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-wall-art {
+  background-image: url('furniture-site-images/family-wa-hover.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-wall-art:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/family-wa.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-air-quality {
+  background-image: url('furniture-site-images/fireplaces.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-img-air-quality:hover {
+  cursor: pointer;
+  transition: all 1s ease-out;
+  background-image: url('furniture-site-images/humidifiers.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+
+.service-text-head {
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  font-family: "Pacifico", cursive;
+  font-weight: 600;
+}
+
+.read-more-button {
+  border-radius: 5px;
+  color: chocolate;
+  font-weight: 600;
+}
+
+.page-footer {
+  background-color: saddlebrown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer-icon {
+  color: white;
+}
+
+.footer-company-name {
+  color: coral;
+  font-family: "Pacifico", cursive;
+}
+
+.footer-c-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.footer-text-1 {
+  font-size: 20px;
+}
+
+.footer-text-2 {
+  font-size: 12px;
+}
+
+.contact-page-icons {
+  color: saddlebrown;
+  font-size: 20px;
+}
+
+.info-head {
+  color: saddlebrown;
+  font-family: "Pacifico", cursive;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.info-title {
+  font-size: 10px;
+}
+
+.form {
+  margin-top: 2em;
+}
+
+.name-text-area {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid saddlebrown;
+  color: saddlebrown;
+  outline: none;
+  width: 100%;
+  height: 2em;
+}
+
+.email-text-area {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid saddlebrown;
+  color: saddlebrown;
+  outline: none;
+  width: 100%;
+  height: 2em;
+  margin-top: 2em;
+}
+
+.message-text-area {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid saddlebrown;
+  color: saddlebrown;
+  outline: none;
+  width: 100%;
+  height: 5em;
+  margin-top: 2em;
+}
+
+.form-button {
+  background-color: saddlebrown;
+  color: white;
+  font-family: "Playwrite NG Modern", cursive;
+}
+
+.page-description,
+.about-page,
+.products-page,
+.services-page,
+.contact-page,
+.footer-page {
+  padding: 1em;
+}
+
+/* TABLET VIEW */
+@media screen and (min-width: 768px) {
+  .about-page,
+  .products-page,
+  .services-page,
+  .contact-page,
+  .footer-page {
+    padding: 2em 4em 2em 4em;
+  }
+
+  .header-background {
+    height: 300px;
+  }
+
+  .header-text {
+    font-size: 28px;
+  }
+
+  .company-name {
+    font-size: 33px;
+  }
+
+  .button {
+    font-size: 23px;
+  }
+
+  .menu-icon {
+    font-size: 26px;
+  }
+
+  .page-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .pgd-2,
+  .pgd-3 {
+    margin-top: 0;
+  }
+
+  .about-img {
+    height: 360px;
+  }
+
+  .products,
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+
+  .services {
+    margin-top: 10px;
+  }
+
+  .products-display-1,
+  .service-display-1 {
+    margin-top: 0;
+  }
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    border-color: white;
+    color: white;
+    transition: all 0.5s ease-out;
+  }
+
+  .menu-icon:hover,
+  .footer-company-name:hover {
+    cursor: pointer;
+  }
+
+  .page-description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+  }
+
+  .about-img-container {
+    width: 50%;
+  }
+
+  .about-page-text {
+    width: 50%;
+  }
+
+  .products-page {
+    display: flex;
+    gap: 2em;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+  }
+
+  .products-page-description {
+    width: 25%;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact-page {
+    display: flex;
+    justify-content: center;
+    margin: auto 5em;
+  }
+
+  .contact-page-info,
+  .form {
+    width: 90%;
+  }
+
+  .form {
+    margin-top: 0;
+  }
+
+  .contact-button:hover {
+    background-color: saddlebrown;
+    transition: all 0.5s ease-out;
+  }
+
+  .form-button:hover {
+    background-color: chocolate;
+  }
+
+  .footer-icon:hover {
+    color: coral;
+    cursor: pointer;
+  }
+}
